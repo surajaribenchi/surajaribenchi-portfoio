@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Hanken+Grotesk:wght@500;700;800&family=Poppins:wght@300&family=Vollkorn&display=swap');
+body{
+    background-color: #000000f6;
+}
+/* navbar */
+#nav-container{
+    margin:0px 300px 0px ;
+    display: flex;
+}
+.name-container,.nav-box{
+    width: 600px;
+}
+.namebox{
+  padding-top:15px;
+  font-size: x-large;
+  padding-left: 40px;
+  font-family: 'Borel', cursive;
+  color: white;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-box a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size:large;
+    padding-top: 10px;
+    margin-left: 20px;
+    color: white;
+    
+}
+.nav-box a:hover{
+border-bottom: 5px solid #FFB300;
+}
+.sticky {
+    position: fixed;
+    background-color: rgba(128, 128, 128, 0.322);
+    top:20px;
+    
+  }
+/* about */
+.l-about,.r-about{
+width:500px;
+height:500px;
+margin-top: 200px;
+}
+.home-container img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.r-box #hello{
+    color: white;
+    background-color:#FFB300;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px 10px 0px 10px;
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+}
+.r-box{
+    margin-left: 30px;
+}
+.r-box #name{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:xx-large;
+    padding: 0px;
+    margin: 0px;
+}
+.r-box #tagline{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+    
+}
+.box-info{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.box-info p{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding-left:10px;
+    
+}
+i{
+    padding-top: 2px;
+    margin:0px;
+}
+.profile-links{
+    display: flex;
+    margin-top: 30px;
+    }
+.box-links{
+    
+    margin-right: 20px;
+    border: 2px white solid;
+    border-radius:100%;
+}
+.box-links a{
+    padding: 4px;
+}
+.box-links:hover{
+    background-color: #dbbd76;
+}
+.freespace{
+    height:137px;
+}
+
+
+/* about */
+.l-home,.r-home{
+    width:500px;
+    height:500px;
+    }
+ .about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .about-container h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+ }
+ .about-container p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+ }
+
+.download-box{
+    margin-top: 20px;
+    background-color: #FFB300;
+    width: fit-content;
+    border-radius:20px;
+}
+.download-box a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    padding: 10px;
+}
+.about-container img{
+    height: 500px;
+    width: 500px;
+    
+}
+.about-freespace{
+    height:200px;
+}
+/* skills */
+.skills-maincontainer h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+}
+.skills-maincontainer{
+    width:1000px;
+    
+}
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-box{
+    box-shadow: 20px 18px 15px -3px rgba(0,0,0,1);
+    background-color: rgba(128, 128, 128, 0.048);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.skills-maincontainer img{
+    width: 150px;
+    height: 150px;
+}
+.skill-box h2{
+    color: white ;
+
+}
+.inner-box{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+/* education */
+.education-box{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.eduaction-container h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    width:1000px;
+}
+.education-box h1{
+    font-size: x-large;
+    background-color: #FFB300;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.eduaction-container{
+    margin-top:100px;
+}
+.education-maincontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edu{
+    background-color:rgba(128, 128, 128, 0.048); 
+}
+/* contact */
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-maincontainer{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-maincontainer h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+
+}
+form{
+    grid-template-rows: repeat(2, 1fr); 
+    row-gap: 20px;
+    column-gap: 20px; 
+}
+.input-1,.input-2{
+    display: flex;
+
+}
+input{
+ margin: 30px;
+ width: 400px;
+ height:70px;
+ border: none;
+ border-radius:10px;
+ background-color:rgba(128, 128, 128, 0.048) ;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width:100px;
+    height:40px;
+    padding:10px;
+    background-color: #FFB300;
+    color: white;
+    border-radius:20px;
+    border: none;
+}
+/* footer */
+.footer-maincontainer{
+    width:1000px;
+    display: flex;
+    height: 250px;
+}
+.footer-l{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(128, 128, 128, 0.048) ;
+}
+.footer-maincontainer a{
+    margin: 30px;
+}
+.footer-l,.footer-r{
+    width: 500px;
+}
+.footer-r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
